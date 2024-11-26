@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  color: black;
+  margin: auto;
+  max-width: 90%;
+  padding: 10px;
+}
+
+.form-input {
+  border: 3px solid rgb(240, 46, 46);
+  padding: 0.5%;
+  margin: 1%;
+  border-radius: 5px;
+  width: calc(100% - 10px);
+  max-width: 400px;
+}
+
+button {
+  color: white;
+  background-color: green;
+  padding: 0.5% 1%;
+  border-radius: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-right: 5px;
+  border: none;
+
+}
+
+button:hover {
+  background-color: darkgreen; 
+}
+
+.btn-delete {
+  background-color: red;
+  color: white;
+}
+
+.btn-edit {
+  background-color: orange;
+  color: rgb(39, 38, 38);
+}
+
+.btn-Taskstatus {
+  background-color: rgb(181, 242, 89);
+  color: rgb(39, 38, 38);
+}
+
+.todo-item {
+  font-weight: bold;
+  border: 3px solid whitesmoke;
+  background-color: blueviolet;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 90%;
+  max-width: 700px;
+  height: 40px;
+  margin: 10px auto;
+  gap: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px;
+}
+
+
+
