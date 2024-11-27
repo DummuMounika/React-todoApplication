@@ -1,12 +1,12 @@
 import './App.css';
-import TodoTask from './components/TodoTask.jsx';
+import TodoWrapper from './components/TodoWrapper.jsx';
 
 function App() {
 
   return (
     <div className="App">
       <h1>Mounika's To-Do-App</h1>
-      <TodoTask />
+      <TodoWrapper />
     </div>
   );
 }
