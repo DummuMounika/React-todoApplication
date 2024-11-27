@@ -1,4 +1,4 @@
-export default  function TodoItem({task, toggleCompletion, deleteToDo, editToDo, statusToDo}) {
+export default  function TodoItem({task, toggleCompletion, deleteToDo, editToDo}) {
   return (
     <>
       <div className="todo-item">
